@@ -1,0 +1,9 @@
+# FOC--b192211540//24.write a program to convert decimal to hexa
+#include<stdio.h>;
+int main()
+{
+  int n;
+  printf("enter the decimal value:");
+  scanf("%d", &n);
+  printf("the hexa value is: %x",n);
+  return 0;
