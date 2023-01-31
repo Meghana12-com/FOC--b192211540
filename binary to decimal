@@ -1,0 +1,18 @@
+# FOC--b192211540/21.write  a program to convert binary to decimal
+#include<stdio.h>
+#include<math.h>
+//function prototype
+int convert(long long);
+
+int main()
+{
+	long long n;
+	printf("Enter a binary number:");
+	scanf("%11d",&n);
+	printf("%11d in binary =5d in decimal",n,convert(n));
+	return 0;
+}
+
+//function definition
+int convert (long long n)
+{
