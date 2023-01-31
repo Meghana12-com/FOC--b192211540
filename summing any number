@@ -1,0 +1,19 @@
+# FOC--b19221154013.summing up any n numbers and finding average
+#include<stdio.h>
+int main()
+{
+	int n,num,sum=0,i;
+	float avg;
+	printf("%d",&n);
+	scanf("%d",&n);
+	for (i=1;i<=n;i++)
+	{
+		printf("\n Enter the element:");
+		scanf("%d",&num);
+		sum+=num;	
+	}
+	avg=sum/n;
+	printf("\nsum of %d numbers= %d",n,sum);
+	printf("\nAverage of %d numbers= %0.2f",n,avg);
+	return 0;
+}
