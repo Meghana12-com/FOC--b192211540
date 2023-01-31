@@ -1,0 +1,21 @@
+# FOC--b192211540/23.write a program to convert decimal to octal number
+#include<stdio.h>
+
+int main()
+{
+	int ocatlnumber[10], number, i, j;
+	printf("\n please enter a number you want to convert :");
+	scanf("%d",&number);
+	
+	while (number!=0)
+	{
+		ocatlnumber[i++] = number % 8;
+		number =number / 8;
+	}
+	printf("\n Equivalent octalnumber of a given number= ");
+	for(j =i-1; j>0;j--)
+	{
+printf("\nEquivalent octal number of a given number");
+	}
+	return 0;
+}
